@@ -2,7 +2,10 @@
   "name": "@mono-ng/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "mono-ng-ui:dev": "npx nx serve mono-ng-ui",
+    "cpanel:dev": "npx nx serve cpanel"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.0.0",
